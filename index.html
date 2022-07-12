@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!--Start nav bar-->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo" alt="SocialBook-Logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification-icon"></li>
+                <li><img src="images/inbox.png" alt="inbox-icon"></li>
+                <li><img src="images/video.png" alt="video-icon"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png" alt="search-icon">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="profile-pic-icon">
+            </div>
+
+        </div>
+
+        <!--settings-menu-->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile-pic-img">
+                    <div>
+                        <p>Nzola Kiampava</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="feedback-img">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon" alt="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon" alt="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon" alt="settings-icon">
+                    <a href="#">Display & Acessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon" alt="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </nav>
+    
+
+    <!--Start Container-->
+    <div class="container">
+        <!-- Left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="news-icon"> Latest News </a>
+                <a href="#"><img src="images/friends.png" alt="friends-icon"> Friends </a>
+                <a href="#"><img src="images/group.png" alt="group-icon"> Group </a>
+                <a href="#"><img src="images/marketplace.png" alt="marketplace-icon"> Marketplace </a>
+                <a href="#"><img src="images/watch.png" alt="watch-icon"> Watch </a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="shortcut"> Web Developers </a>
+                <a href="#"><img src="images/shortcut-2.png" alt="shortcut"> Web Design Course </a>
+                <a href="#"><img src="images/shortcut-3.png" alt="shortcut"> Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="shortcut"> Website Experts </a>
+            </div>
+        </div>
+
+        <!-- Main-content -->    
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="upload-icon">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-7.png" alt="upload-icon">
+                    <p>Nzola</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-6.png" alt="upload-icon">
+                    <p>DNA Group</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-5.png" alt="upload-icon">
+                    <p>Kiampava</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="upload-icon">
+                    <p>Turma A3</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile-pic-img">
+                    <div>
+                        <p>Nzola Kiampava</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Nzola?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="video-icon">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="video-icon">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="video-icon">Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile-pic-img">
+                        <div>
+                            <p>Nzola Kiampava</p>
+                            <span>June 11 2022, 18:20 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">When something is important enough, you do it even if the odds are not in favor. - By <span>@Elon Musk</span> <a href="#">#NzolaKiampava</a> <a href="#">#GitHub.com</a></p>
+                <img src="images/feed-image-1.png" class="post-img" alt="feed-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like-icon">202</div>
+                        <div><img src="images/comments.png" alt="comment-icon">65</div>
+                        <div><img src="images/share.png" alt="share-icon">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="post-profile-icon"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png" alt="profile-pic-img">
+                        <div>
+                            <p>DNA Group</p>
+                            <span>June 01 2022, 11:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">E mais importante, tenha coragem de seguir o seu coração e a sua intuição. Eles de alguma maneira já sabem, o q você quer se tornar. Todo o resto é secundário - By <span>Steve Jobs</span> <a href="#">#NzolaKiampava</a> <a href="#">#GitHub.com</a></p>
+                <img src="images/feed-image-2.png" class="post-img" alt="feed-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like-icon">100</div>
+                        <div><img src="images/comments.png" alt="comment-icon">25</div>
+                        <div><img src="images/share.png" alt="share-icon">7</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-2.png" alt="post-profile-icon"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-3.png" alt="profile-pic-img">
+                        <div>
+                            <p>TheCoder</p>
+                            <span>June 11 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Just Coding and live smilling. - <span>@TheCoder</span> <a href="#">#NzolaKiampava</a> <a href="#">#GitHub.com</a></p>
+                <img src="images/feed-image-3.png" class="post-img" alt="feed-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like-icon">212</div>
+                        <div><img src="images/comments.png" alt="comment-icon">90</div>
+                        <div><img src="images/share.png" alt="share-icon">56</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-3.png" alt="post-profile-icon"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-6.png" alt="profile-pic-img">
+                        <div>
+                            <p>Luzia Barros</p>
+                            <span>March 11 2022, 18:24 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Don't Give UP. <span>@Barros</span> <a href="#">#NzolaKiampava</a> <a href="#">#GitHub.com</a></p>
+                <img src="images/feed-image-4.png" class="post-img" alt="feed-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like-icon">404</div>
+                        <div><img src="images/comments.png" alt="comment-icon">165</div>
+                        <div><img src="images/share.png" alt="share-icon">2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-6.png" alt="post-profile-icon"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-8.png" alt="profile-pic-img">
+                        <div>
+                            <p>Natália Albino</p>
+                            <span>June 09 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Be hustle. - <span>@Natalia</span> <a href="#">#NzolaKiampava</a> <a href="#">#GitHub.com</a></p>
+                <img src="images/feed-image-5.png" class="post-img" alt="feed-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like-icon">112</div>
+                        <div><img src="images/comments.png" alt="comment-icon">20</div>
+                        <div><img src="images/share.png" alt="share-icon">56</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-8.png" alt="post-profile-icon"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+        <!-- Right-sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>November</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="advertisement-img">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="member-img">
+                </div>
+                <p>DNA Group</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="member-img">
+                </div>
+                <p>Turma A3</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="member-img">
+                </div>
+                <p>KiampavaTheCoder</p>
+            </div>
+
+        </div>
+    </div>
+    <!--End Container-->
+
+    <div class="footer">
+        <p>Copyright &copy; 2022 - Nzola António Kiampava</p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
